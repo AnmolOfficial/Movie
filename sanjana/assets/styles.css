@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+main h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+main h3 a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*movie display section*/
+.clients {
+padding: 40px 0;
+}
+
+.clients .swiper {
+padding: 20px 0;
+}
+
+.clients .swiper-slide img {
+transition: 0.1ms;
+height: 300px;
+width: 250px;
+padding-right: 20px;
+}
+
+.clients .swiper-slide img:hover {
+transform: scale(1.1);
+}
+
+.clients .swiper-pagination {
+margin-top: 20px;
+position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+width: 5px;
+height: 20px;
+background-color:#000;
+opacity: 1;
+background-color: #000;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+background-color:#000;
+}
+  
